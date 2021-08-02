@@ -1,19 +1,19 @@
 <template>
   <v-app>
+    <nav-bar-component/>
     <v-main>
-      <router-view>
-      </router-view>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-
-
+import NavBarComponent from './views/NavBarComponent.vue'
+// import VuetifyAllInOneTestPage from './views/VuetifyAllInOneTestPage.vue'
 export default {
-  name: 'App',
+  components: { NavBarComponent },
+  name: 'App'
 }
-
 </script>
 
 <style>
@@ -35,6 +35,5 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-
- */
+*/
 </style>
