@@ -110,6 +110,11 @@
                    active-class="active">
         Vuetify 활용
       </router-link>
+      <router-link :to="{ name: 'JPAMemberRegisterPage' }"
+                   class="nav-link"
+                   active-class="active">
+        JPAMemberRegister
+      </router-link>
     </div>
   </div>
 </template>

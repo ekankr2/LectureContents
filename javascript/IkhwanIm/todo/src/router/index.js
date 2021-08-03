@@ -53,6 +53,7 @@ import RecentSlotTestPage from "../views/RecentSlotTestPage";
 import MaterializeTestPage from "../views/MaterializeTestPage";
 import MaterializeGridTestPage from "../views/MaterializeGridTestPage";
 import VuetifyAllInOneTestPage from "../views/VuetifyAllInOneTestPage";
+import JPAMemberRegisterPage from "../views/JPAMemberRegisterPage";
 const routes = [
   {
     path: '/',
@@ -281,6 +282,13 @@ const routes = [
     name: 'VuetifyAllInOneTestPage',
     components: {
       default: VuetifyAllInOneTestPage
+    }
+  },
+  {
+    path: '/jpaMemberRegister',
+    name: 'JPAMemberRegisterPage',
+    components: {
+      default: JPAMemberRegisterPage
     }
   },
 ]
