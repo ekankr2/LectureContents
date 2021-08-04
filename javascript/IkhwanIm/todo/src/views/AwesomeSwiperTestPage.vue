@@ -35,19 +35,25 @@ export default {
   data () {
     return{
     swiperOption: {
+      loop: true,
       effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: 'auto',
       coverFlowEffect: {
-        rotate: 50,
+        //rotate: 50,
         stretch: 0,
         depth: 100,
+        // 높을수록 회전 많이
         modifier: 1,
         slideShadows: true
       },
       pagination: {
-        el: '.swiper-pagination'
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+      autoplay: {
+        delay: 5000
       }
       }
     }
@@ -72,6 +78,13 @@ export default {
     align-items: center;
     width: 300px;
     height: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: mediumpurple;
+    background-position: center;
+    background-size: cover;
+
   }
 }
 </style>

@@ -55,6 +55,7 @@ import MaterializeGridTestPage from "../views/MaterializeGridTestPage";
 import VuetifyAllInOneTestPage from "../views/VuetifyAllInOneTestPage";
 import JPAMemberRegisterPage from "../views/JPAMemberRegisterPage";
 import AwesomeSwiperTestPage from "../views/AwesomeSwiperTestPage";
+import ImageGalleryTestPage from "../views/ImageGalleryTestPage";
 const routes = [
   {
     path: '/',
@@ -299,6 +300,14 @@ const routes = [
       default: AwesomeSwiperTestPage
     }
   },
+  {
+    path: '/imageGalleryTestPage',
+    name: 'ImageGalleryTestPage',
+    components: {
+      default: ImageGalleryTestPage
+    }
+  },
+
 ]
 
 const router = new VueRouter({
