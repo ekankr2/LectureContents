@@ -54,6 +54,7 @@ import MaterializeTestPage from "../views/MaterializeTestPage";
 import MaterializeGridTestPage from "../views/MaterializeGridTestPage";
 import VuetifyAllInOneTestPage from "../views/VuetifyAllInOneTestPage";
 import JPAMemberRegisterPage from "../views/JPAMemberRegisterPage";
+import AwesomeSwiperTestPage from "../views/AwesomeSwiperTestPage";
 const routes = [
   {
     path: '/',
@@ -289,6 +290,13 @@ const routes = [
     name: 'JPAMemberRegisterPage',
     components: {
       default: JPAMemberRegisterPage
+    }
+  },
+  {
+    path: '/awesomeSwiperTest',
+    name: 'AwesomeSwiperTestPage',
+    components: {
+      default: AwesomeSwiperTestPage
     }
   },
 ]
