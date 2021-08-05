@@ -56,6 +56,8 @@ import VuetifyAllInOneTestPage from "../views/VuetifyAllInOneTestPage";
 import JPAMemberRegisterPage from "../views/JPAMemberRegisterPage";
 import AwesomeSwiperTestPage from "../views/AwesomeSwiperTestPage";
 import ImageGalleryTestPage from "../views/ImageGalleryTestPage";
+import CalendarTestPage from "../views/CalendarTestPage";
+import MemberJoinColumnTestPage from "../views/MemberJoinColumnTestPage";
 const routes = [
   {
     path: '/',
@@ -305,6 +307,20 @@ const routes = [
     name: 'ImageGalleryTestPage',
     components: {
       default: ImageGalleryTestPage
+    }
+  },
+  {
+    path: '/calendar',
+    name: 'CalendarTestPage',
+    components: {
+      default: CalendarTestPage
+    }
+  },
+  {
+    path: '/memberJoinColumn',
+    name: 'MemberJoinColumnTestPage',
+    components: {
+      default: MemberJoinColumnTestPage
     }
   },
 

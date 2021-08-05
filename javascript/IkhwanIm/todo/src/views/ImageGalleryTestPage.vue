@@ -24,6 +24,8 @@ export default {
         require('../assets/spyder.jpg'),
         require('../assets/modelX.jpg'),
         require('../assets/maxima.jpg'),
+        require('../assets/apple.png'),
+        require('../assets/twitter.png'),
       ]
     }
   }
