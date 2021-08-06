@@ -53,11 +53,11 @@ import RecentSlotTestPage from "../views/RecentSlotTestPage";
 import MaterializeTestPage from "../views/MaterializeTestPage";
 import MaterializeGridTestPage from "../views/MaterializeGridTestPage";
 import VuetifyAllInOneTestPage from "../views/VuetifyAllInOneTestPage";
-import JPAMemberRegisterPage from "../views/JPAMemberRegisterPage";
 import AwesomeSwiperTestPage from "../views/AwesomeSwiperTestPage";
 import ImageGalleryTestPage from "../views/ImageGalleryTestPage";
 import CalendarTestPage from "../views/CalendarTestPage";
 import MemberJoinColumnTestPage from "../views/MemberJoinColumnTestPage";
+import VuetifyMemberRegisterPage from "../views/VuetifyMemberRegisterPage";
 const routes = [
   {
     path: '/',
@@ -289,10 +289,10 @@ const routes = [
     }
   },
   {
-    path: '/jpaMemberRegister',
-    name: 'JPAMemberRegisterPage',
+    path: '/vuetifyMemberRegister',
+    name: 'VuetifyMemberRegisterPage',
     components: {
-      default: JPAMemberRegisterPage
+      default: VuetifyMemberRegisterPage
     }
   },
   {
@@ -303,7 +303,7 @@ const routes = [
     }
   },
   {
-    path: '/imageGalleryTestPage',
+    path: '/imageGallery',
     name: 'ImageGalleryTestPage',
     components: {
       default: ImageGalleryTestPage
@@ -322,7 +322,7 @@ const routes = [
     components: {
       default: MemberJoinColumnTestPage
     }
-  },
+  }
 
 ]
 

@@ -110,10 +110,10 @@
                    active-class="active">
         Vuetify 활용
       </router-link>
-      <router-link :to="{ name: 'JPAMemberRegisterPage' }"
+      <router-link :to="{ name: 'VuetifyMemberRegisterPage' }"
                    class="nav-link"
                    active-class="active">
-        JPAMemberRegister
+        Vuetify 회원 가입 활용
       </router-link>
       <router-link :to="{ name: 'AwesomeSwiperTestPage' }"
                    class="nav-link"

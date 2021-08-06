@@ -1,7 +1,9 @@
 package com.example.demo.controller.vue;
 
+import com.example.demo.entity.Member;
 import com.example.demo.entity.VueMember;
 import com.example.demo.service.VueJPAMemberService;
+import com.example.demo.service.VueMemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,6 +31,5 @@ public class VueJPAMemberController {
         service.register(member);
 
         return new ResponseEntity<>(member, HttpStatus.OK);
-
     }
 }

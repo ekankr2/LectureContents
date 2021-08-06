@@ -1,9 +1,6 @@
 package com.example.demo.entity;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.data.annotation.CreatedDate;
@@ -16,6 +13,8 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @Entity
+@Getter
+@Setter
 @ToString
 public class VueMember {
     @Id
@@ -33,5 +32,4 @@ public class VueMember {
 
     @UpdateTimestamp
     private Date lastModifiedDate;
-
 }
