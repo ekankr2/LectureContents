@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'GameMemberRegisterForm',
+  name: 'VuetifyMemberRegisterForm',
   data () {
     return {
       id: '',
