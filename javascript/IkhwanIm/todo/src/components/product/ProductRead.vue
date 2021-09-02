@@ -35,7 +35,7 @@ export default {
   name: 'ProductRead',
   props: {
     product: {
-      type: Object,
+      type: Obj ect,
       required: true
     }
   }

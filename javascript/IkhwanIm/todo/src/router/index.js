@@ -59,6 +59,7 @@ import CalendarTestPage from "../views/CalendarTestPage";
 import MemberJoinColumnTestPage from "../views/MemberJoinColumnTestPage";
 import VuetifyMemberRegisterPage from "../views/VuetifyMemberRegisterPage";
 import VuetifyMemberLoginPage from "../views/VuetifyMemberLoginPage";
+import FileUploadPage from "../views/FileUploadPage";
 const routes = [
   {
     path: '/',
@@ -329,6 +330,13 @@ const routes = [
     name: 'VuetifyMemberLoginPage',
     components: {
       default: VuetifyMemberLoginPage
+    }
+  },
+  {
+    path: '/fileUpload',
+    name: 'FileUploadPage',
+    components: {
+      default: FileUploadPage
     }
   }
 
