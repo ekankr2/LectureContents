@@ -60,6 +60,8 @@ import MemberJoinColumnTestPage from "../views/MemberJoinColumnTestPage";
 import VuetifyMemberRegisterPage from "../views/VuetifyMemberRegisterPage";
 import VuetifyMemberLoginPage from "../views/VuetifyMemberLoginPage";
 import FileUploadPage from "../views/FileUploadPage";
+import SessionLoginPage from "../views/SessionLoginPage";
+import AccountRegisterPage from "../views/AccountRegisterPage";
 const routes = [
   {
     path: '/',
@@ -337,6 +339,20 @@ const routes = [
     name: 'FileUploadPage',
     components: {
       default: FileUploadPage
+    }
+  },
+  {
+    path: '/sessionLogin',
+    name: 'SessionLoginPage',
+    components: {
+      default: SessionLoginPage
+    }
+  },
+  {
+    path: '/accountRegister',
+    name: 'AccountRegisterPage',
+    components: {
+      default: AccountRegisterPage
     }
   }
 

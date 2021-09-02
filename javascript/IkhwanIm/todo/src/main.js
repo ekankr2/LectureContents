@@ -6,8 +6,11 @@ import vuetify from './plugins/vuetify'
 
 import 'materialize-css/dist/css/materialize.min.css'
 import 'material-design-icons/iconfont/material-icons.css'
+import cookies from "vue-cookies";
 
 Vue.config.productionTip = false
+
+Vue.use(cookies)
 
 new Vue({
   router,

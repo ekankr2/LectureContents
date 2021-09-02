@@ -145,6 +145,16 @@
                    active-class="active">
         파일 업로드 Test
       </router-link>
+      <router-link :to="{ name: 'AccountRegisterPage' }"
+                   class="nav-link"
+                   active-class="active">
+        Account 회원 가입
+      </router-link>
+      <router-link :to="{ name: 'SessionLoginPage' }"
+                   class="nav-link"
+                   active-class="active">
+        Account 로그인 Test
+      </router-link>
     </div>
   </div>
 </template>

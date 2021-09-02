@@ -25,7 +25,7 @@ import {
     ALLOC_RANDOM_DUNGEON,
     // 학생
     FETCH_STUDENT_LIST,
-    CRAWL_START,
+    CRAWL_START, FETCH_SESSION,
 } from './mutation-types'
 
 import axios from 'axios'
@@ -147,6 +147,10 @@ export default {
                     router.push('/daumNewsCrawler')
                 }
             })
+    },
+    // Session
+    fetchSession ({ commit }) {
+        commit(FETCH_SESSION)
     }
 
 }
