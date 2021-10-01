@@ -12,6 +12,9 @@ Vue.config.productionTip = false
 
 Vue.use(cookies)
 
+window.Kakao.init("c7fed513dbc0ff5f30f1e752cb5a2cee")
+alert('Kakao 초기화 여부 : ' + window.Kakao.isInitialized())
+
 new Vue({
   router,
   store,

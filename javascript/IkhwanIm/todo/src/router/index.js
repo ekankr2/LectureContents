@@ -62,6 +62,8 @@ import VuetifyMemberLoginPage from "../views/VuetifyMemberLoginPage";
 import FileUploadPage from "../views/FileUploadPage";
 import SessionLoginPage from "../views/SessionLoginPage";
 import AccountRegisterPage from "../views/AccountRegisterPage";
+import PythonLoginTestPage from "../views/PythonLoginTestPage";
+import KakaoLoginPage from "../views/KakaoLoginPage";
 const routes = [
   {
     path: '/',
@@ -353,6 +355,20 @@ const routes = [
     name: 'AccountRegisterPage',
     components: {
       default: AccountRegisterPage
+    }
+  },
+  {
+    path: '/pyLogin',
+    name: 'PythonLoginTestPage',
+    components: {
+      default: PythonLoginTestPage
+    }
+  },
+  {
+    path: '/kakaoLogin',
+    name: 'KakaoLoginPage',
+    components: {
+      default: KakaoLoginPage
     }
   }
 

@@ -155,6 +155,21 @@
                    active-class="active">
         Account 로그인 Test
       </router-link>
+      <router-link :to="{ name: 'DaumNewsCrawlerPage' }"
+                   class="nav-link"
+                   active-class="active">
+        CRAWL
+      </router-link>
+      <router-link :to="{ name: 'PythonLoginTestPage' }"
+                   class="nav-link"
+                   active-class="active">
+        PythonLoginTestPage
+      </router-link>
+      <router-link :to="{ name: 'KakaoLoginPage' }"
+                   class="nav-link"
+                   active-class="active">
+        Kakao Login
+      </router-link>
     </div>
   </div>
 </template>
