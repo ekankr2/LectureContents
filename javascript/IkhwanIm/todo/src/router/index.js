@@ -64,6 +64,7 @@ import SessionLoginPage from "../views/SessionLoginPage";
 import AccountRegisterPage from "../views/AccountRegisterPage";
 import PythonLoginTestPage from "../views/PythonLoginTestPage";
 import KakaoLoginPage from "../views/KakaoLoginPage";
+import OrderTestPage from "../views/OrderTestPage";
 const routes = [
   {
     path: '/',
@@ -369,6 +370,13 @@ const routes = [
     name: 'KakaoLoginPage',
     components: {
       default: KakaoLoginPage
+    }
+  },
+  {
+    path: '/OrderTestPage',
+    name: 'OrderTestPage',
+    components: {
+      default: OrderTestPage
     }
   }
 

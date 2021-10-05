@@ -170,6 +170,11 @@
                    active-class="active">
         Kakao Login
       </router-link>
+      <router-link :to="{ name: 'OrderTestPage' }"
+                   class="nav-link"
+                   active-class="active">
+        Order Test
+      </router-link>
     </div>
   </div>
 </template>
